@@ -1,0 +1,19 @@
+import { Widget, _decorator,Node } from 'cc';
+import { UIBase } from './UIBase';
+const { ccclass, property,requireComponent } = _decorator;
+
+@ccclass('UI/UITemplate')
+@requireComponent(Widget)
+export class UITemplate extends UIBase {
+
+    public onOpen(data?: any): void {
+        
+    }
+
+    public onClose(data?: any): void {
+        
+    }
+
+}
+
+
